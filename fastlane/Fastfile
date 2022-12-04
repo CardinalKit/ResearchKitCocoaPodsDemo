@@ -1,0 +1,22 @@
+#
+# This source file is part of the CardinalKit open source project
+#
+# SPDX-FileCopyrightText: 2022 Paul Schmiedmayer <paul.schmiedmayer@tum.de>
+#
+# SPDX-License-Identifier: MIT
+#
+
+default_platform(:ios)
+
+platform :ios do
+  desc "Build app"
+  lane :build do
+    cocoapods(
+      podfile: "."
+    )
+    build_app(
+      skip_archive: true,
+      skip_codesigning: true
+    )
+  end
+end

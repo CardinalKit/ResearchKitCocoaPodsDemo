@@ -1,0 +1,27 @@
+PODS:
+  - CocoaPodsDependency (1.0.0)
+  - ResearchKit (2.1.0)
+
+DEPENDENCIES:
+  - CocoaPodsDependency (from `.`)
+  - ResearchKit (from `https://github.com/ResearchKit/ResearchKit.git`, branch `main`)
+
+EXTERNAL SOURCES:
+  CocoaPodsDependency:
+    :path: "."
+  ResearchKit:
+    :branch: main
+    :git: https://github.com/ResearchKit/ResearchKit.git
+
+CHECKOUT OPTIONS:
+  ResearchKit:
+    :commit: fc67cc944c9f33a7701214a4bb53ecd03d07f553
+    :git: https://github.com/ResearchKit/ResearchKit.git
+
+SPEC CHECKSUMS:
+  CocoaPodsDependency: 385a5f04e6736798cf733e1eaa28be54ccbb13ea
+  ResearchKit: 6cd1fafe8cc4558287d63b9f8d9133aa258dbfd1
+
+PODFILE CHECKSUM: f78f6a18362e8759aa66ae8f13ee552c1901ef2e
+
+COCOAPODS: 1.11.3
